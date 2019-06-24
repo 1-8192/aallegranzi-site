@@ -4,7 +4,7 @@ const Landing = () => {
     return (
     <div>
         <section className="landing-bg-image">
-            <p>test</p>
+            <p>Does this work</p>
         </section>
     </div>
     )
