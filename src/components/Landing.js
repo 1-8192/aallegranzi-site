@@ -1,10 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+//Components
+import Projects from './Projects'
 
 const Landing = () => {
     return (
-    <div>
+    <div className="landing-bg-image">
         <section className="landing-bg-image">
-            <p>Does this work</p>
+            <h1>Alessandro Allegranzi</h1>
+            <Link to={"/Projects"}>Projects</Link>
         </section>
     </div>
     )
