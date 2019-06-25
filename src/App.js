@@ -10,10 +10,10 @@ function App() {
   return (
     <div>
        <main>
-         <switch>
+         <Switch>
            <Route path='/projects' component={Projects}/>
            <Route path='/' component={Landing}/>
-         </switch>
+         </Switch>
        </main>
     </div>
   );
