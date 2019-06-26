@@ -5,15 +5,17 @@ import { Switch, Route } from 'react-router-dom'
 //Components 
 import Landing from './components/Landing'
 import Projects from './components/Projects'
+import Blog from './components/Blog'
 
 function App() {
   return (
     <div>
        <main>
-         <switch>
+         <Switch>
+           <Route path='/blog' component={Blog}/>
            <Route path='/projects' component={Projects}/>
            <Route path='/' component={Landing}/>
-         </switch>
+         </Switch>
        </main>
     </div>
   );

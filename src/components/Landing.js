@@ -10,6 +10,7 @@ const Landing = () => {
         <section className="landing-bg-image">
             <h1>Alessandro Allegranzi</h1>
             <Link to={"/Projects"}>Projects</Link>
+            <Link to={"/Blog"}>BLOG</Link>
         </section>
     </div>
     )
