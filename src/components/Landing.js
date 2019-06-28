@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Projects from './Projects'
 import Blog from './Blog'
 import Resume from './Resume'
+import About from './About'
 
 const Landing = () => {
     return (
@@ -14,6 +15,7 @@ const Landing = () => {
             <Link to={"/Projects"}>Projects</Link>
             <Link to={"/Blog"} component={Blog}>Blog</Link>
             <Link to={"/Resume"} component={Resume}>Resume</Link>
+            <Link to={"/About"} component={About}>About</Link>
         </section>
     </div>
     )
