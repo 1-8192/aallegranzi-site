@@ -4,9 +4,7 @@ const Blog = () => {
     return (
         <div>
         <h1>Blog</h1>
-        <iframe>
-            src="http://www.aallegranzi.com/category/coding/"
-        </iframe>
+        <a href="https://medium.com/@allegranzia">Medium Blog posts</a>
         </div>
     )
 }
