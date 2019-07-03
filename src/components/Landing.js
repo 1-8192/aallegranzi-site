@@ -12,7 +12,7 @@ const Landing = () => {
     <div className="landing-bg-image">
         <section className="landing-bg-image">
             <h1>Alessandro Allegranzi</h1>
-            <Link to={"/Projects"}>Projects</Link>
+            <Link to={"/Projects"} component={Projects}>Projects</Link>
             <Link to={"/Blog"} component={Blog}>Blog</Link>
             <Link to={"/Resume"} component={Resume}>Resume</Link>
             <Link to={"/About"} component={About}>About</Link>
