@@ -10,13 +10,13 @@ import Landing from './Landing'
 
 const Navbar = () => {
     return (
-        <header>
+        <header className="main-header">
             <div> 
                 <Link className="main-nav__logo" to={"/"} component={Landing}>
                     AA
                 </Link>
             </div>
-            <nav>
+            <nav className="main-nav">
                 <ul class="main-nav__items">
                     <li class="main-nav__item">
                         <Link to={"/Projects"} component={Projects}>Projects</Link>

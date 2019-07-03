@@ -40,8 +40,31 @@
  background-size: cover;
 }
 
-.main-nav__logo {
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: whitesmoke;
+  padding: 8px 16px;
+}
+
+.main-header > div {
   display: inline-block;
+  vertical-align: middle;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+}
+
+.main-nav__logo {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .main-nav__items {
