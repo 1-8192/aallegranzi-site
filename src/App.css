@@ -40,6 +40,10 @@
  background-size: cover;
 }
 
+.main-h1 {
+  padding: 25px 0;
+}
+
 .main-header {
   position: fixed;
   top: 0;

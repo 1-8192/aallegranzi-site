@@ -7,7 +7,7 @@ const Blog = () => {
     return (
         <div>
         <Navbar/>
-        <h1>Blog</h1>
+        <h1 className="main-h1">Blog</h1>
         <a href="https://medium.com/@allegranzia">Medium Blog posts</a>
         </div>
     )
