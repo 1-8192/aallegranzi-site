@@ -17,18 +17,18 @@ const Navbar = () => {
                 </Link>
             </div>
             <nav className="main-nav">
-                <ul class="main-nav__items">
-                    <li class="main-nav__item">
-                        <Link to={"/Projects"} component={Projects}>Projects</Link>
+                <ul className="main-nav__items">
+                    <li className="main-nav__item">
+                        <Link className="main-nav__item--link" to={"/Projects"} component={Projects}>Projects</Link>
                     </li>
-                    <li class="main-nav__item">
-                        <Link to={"/Blog"} component={Blog}>Blog</Link>
+                    <li className="main-nav__item">
+                        <Link className="main-nav__item--link" to={"/Blog"} component={Blog}>Blog</Link>
                     </li>
-                    <li class="main-nav__item">
-                        <Link to={"/Resume"} component={Resume}>Resume</Link>
+                    <li className="main-nav__item">
+                        <Link className="main-nav__item--link" to={"/Resume"} component={Resume}>Resume</Link>
                     </li>
-                    <li class="main-nav__item">
-                        <Link to={"/About"} component={About}>About</Link>
+                    <li className="main-nav__item">
+                        <Link className="main-nav__item--link" to={"/About"} component={About}>About</Link>
                     </li>
                 </ul>
             </nav>
