@@ -39,3 +39,15 @@
  -o-background-size: cover;
  background-size: cover;
 }
+
+.main-nav__logo {
+  display: inline-block;
+}
+
+.main-nav__items {
+  display: inline-block;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
