@@ -68,10 +68,6 @@
   padding: 25px 0;
 }
 
-main-nav__logo_img {
-  
-}
-
 .main-header {
   position: fixed;
   top: 0;
@@ -92,12 +88,12 @@ main-nav__logo_img {
   vertical-align: middle;
 }
 
-/* .main-nav__logo {
+.main-nav__logo {
   color: red;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
-} */
+}
 
 .main-nav__items {
   list-style: none;
