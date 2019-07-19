@@ -45,13 +45,21 @@
   position: absolute;
   display: inline-block;
   width: 100%;
-  top: 2%;
   text-align: center;
 }
 
 .landing_link {
   display: inline-block;
   padding: 20px;
+  text-decoration: none;
+  color: #5DBCD2;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.landing_link:hover {
+  background-color: #5DBCD2;
+  color: red;
 }
 
 /* NAV BAR  */
@@ -80,12 +88,12 @@
   vertical-align: middle;
 }
 
-.main-nav__logo {
+/* .main-nav__logo {
   color: red;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
-}
+} */
 
 .main-nav__items {
   list-style: none;
