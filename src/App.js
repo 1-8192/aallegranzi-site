@@ -12,7 +12,7 @@ import About from './components/About'
 function App() {
   return (
     <div>
-       <main className="landing-bg-image">
+       <main>
          <Switch>
            <Route path="/about" component={About}/>
            <Route path='/blog' component={Blog}/>

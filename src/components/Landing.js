@@ -11,10 +11,12 @@ const Landing = () => {
     return (
     <div className="landing-bg-image">
         <section className="landing-bg-image">
-            <Link to={"/Projects"} component={Projects}>Projects</Link>
-            <Link to={"/Blog"} component={Blog}>Blog</Link>
-            <Link to={"/Resume"} component={Resume}>Resume</Link>
-            <Link to={"/About"} component={About}>About</Link>
+            <div className="landing_links">
+                <Link className="landing_link" to={"/Projects"} component={Projects}>Projects</Link>
+                <Link className="landing_link" to={"/Blog"} component={Blog}>Blog</Link>
+                <Link className="landing_link" to={"/Resume"} component={Resume}>Resume</Link>
+                <Link className="landing_link" to={"/About"} component={About}>About</Link> 
+            </div>
         </section>
     </div>
     )
