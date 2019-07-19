@@ -8,12 +8,14 @@ import Resume from './Resume'
 import About from './About'
 import Landing from './Landing'
 
+import logo from '../images/logo.png'
+
 const Navbar = () => {
     return (
         <header className="main-header">
             <div> 
                 <Link className="main-nav__logo" to={"/"} component={Landing}>
-                    <img src="../images/logo.png" alt="logo"></img>
+                    {/* <img className="main-nav__logo_img" src= {logo} alt="logo"/> */}
                 </Link>
             </div>
             <nav className="main-nav">
