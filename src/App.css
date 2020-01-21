@@ -36,7 +36,7 @@
 }
 
 .landing-bg-image {
-  background: url(./images/landing_bg.png) no-repeat center center fixed;
+  background-color: rgb(218, 213, 225);
   width: 100vw;
   height: 100vh;
 }
@@ -60,6 +60,14 @@
 .landing_link:hover {
   background-color: #5DBCD2;
   color: red;
+}
+
+.landing-content {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  width: 30vw;
+  height: 50vh;
 }
 
 /* NAV BAR  */
